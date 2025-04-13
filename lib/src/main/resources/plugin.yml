@@ -1,11 +1,26 @@
-name: ${name}
-version: ${version}
+name: SleepManager
+version: 1.0.0
 main: com.tatayless.sleepmanager.SleepManager
-api-version: "1.21.5"
-description: ${description}
-authors: tatayless
+api-version: 1.16
+description: A plugin to manage player sleep behavior with voting
+author: Tatayless
+
 commands:
-  example:
-    description: An example command
-    usage: /example
-    permission: myspigotplugin.example
+  sleepmanager:
+    description: Main command for SleepManager
+    usage: /<command> [version|revote|yes|no|toggle]
+    aliases: [sm]
+
+permissions:
+  sleepmanager.version:
+    description: Allows checking the plugin version
+    default: true
+  sleepmanager.revote:
+    description: Allows initiating a revote
+    default: true
+  sleepmanager.vote:
+    description: Allows voting yes or no
+    default: true
+  sleepmanager.toggle:
+    description: Allows toggling sleep voting for worlds
+    default: op

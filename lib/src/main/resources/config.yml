@@ -1,0 +1,21 @@
+# Sleep Manager Configuration
+
+# Language file to use (currently supported: en)
+language: "en"
+
+# Time in seconds before a revote can be triggered (cooldown)
+revote-cooldown: 60
+
+# Time in seconds that a vote will last
+vote-time-limit: 30
+
+# Percentage of 'Yes' votes required for vote to pass (0-100)
+# If set to 0, the vote will always pass as long as at least one player voted
+vote-percentage-threshold: 50
+
+# Enabled status for each world
+# true = sleep voting is enabled, false = disabled
+worlds:
+  world: true
+  world_nether: false
+  world_the_end: false

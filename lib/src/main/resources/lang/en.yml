@@ -1,0 +1,24 @@
+# English language file for Sleep Manager
+
+# Command messages
+command:
+  world_disabled: "&cSleep voting is disabled in this world."
+  revote_cooldown: "&cYou must wait before starting another vote."
+  no_permission: "&cYou don't have permission to use this command."
+
+# Vote messages
+vote:
+  prompt: "&6Should we allow skipping the night in &e{world}&6? Vote now:"
+  yes_button: "&a[YES]"
+  no_button: "&c[NO]"
+  yes_hover: "Click to vote yes"
+  no_hover: "Click to vote no"
+  voted_yes: "&aYou voted &2YES"
+  voted_no: "&aYou voted &cNO"
+  no_active_vote: "&cThere is no active vote in this world."
+  passed: "&aVote passed with &2{yes_percent}%&a yes! The next player to sleep will skip the night in &e{world}&a."
+  failed: "&cVote failed with only &4{yes_percent}%&c yes. Use /sleepmanager revote to try again."
+
+# Sleep messages
+sleep:
+  night_skipped: "&eThe night has been skipped!"

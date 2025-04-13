@@ -12,7 +12,7 @@ plugins {
 }
 
 group = 'com.tatayless.sleepmanager'
-version = '0.1'
+version = '0.5'
 description = 'Sleep Manager for Minecraft Worlds'
 sourceCompatibility = JavaVersion.VERSION_22
 targetCompatibility = JavaVersion.VERSION_22

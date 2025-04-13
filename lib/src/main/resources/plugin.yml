@@ -1,0 +1,11 @@
+name: ${name}
+version: ${version}
+main: com.tatayless.sleepmanager.SleepManager
+api-version: "1.21.5"
+description: ${description}
+authors: tatayless
+commands:
+  example:
+    description: An example command
+    usage: /example
+    permission: myspigotplugin.example

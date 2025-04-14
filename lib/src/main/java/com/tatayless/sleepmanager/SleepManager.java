@@ -15,6 +15,10 @@ public class SleepManager extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        // Log initialization message
+        getLogger().info(
+                "[SleepManager] Initializing SleepManager plugin version " + getDescription().getVersion() + "...");
+
         // Initialize config
         configManager = new ConfigManager(this);
         configManager.loadConfig();
